@@ -1,0 +1,206 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*  */
+    }
+    /* Container Styling */
+    
+    .container {
+        width: 80%;
+        margin: 0 10%;
+        /* background-color: aquamarine; */
+        background-color: #b3ffe0;
+        font-size: 1rem;
+    }
+    /* Header Styling */
+    
+    .header-nav {
+        height: calc(0.6rem + 3vw);
+        background-color: #ccffeb;
+        /* background-color: aqua; */
+        padding: 0.4vw;
+        text-align: center;
+        letter-spacing: 4px;
+        /* color: g; */
+        font-size: calc(0.2rem + 0.7vw);
+    }
+    
+    .form__content {
+        padding: 2.5vw;
+    }
+    
+    .form__content h3 {
+        font-size: calc(0.6rem + 0.6vw);
+        font-weight: 400;
+    }
+    
+    .form__content label {
+        font-size: calc(0.4rem + 0.6vw);
+    }
+    
+    .form-basic_info,
+    .form-basic__info-1,
+    .form-basic__info-2,
+    .educational_background,
+    .parents-information,
+    .father,
+    .mother {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .form-basic_info,
+    .educational_background {
+        width: inherit;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .form-basic__info-1,
+    .form-basic__info-2,
+    .father,
+    .mother {
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    .form-basic_info input,
+    .form-basic_info select,
+    .father input,
+    .mother input {
+        width: calc(6rem + 20vw);
+        height: 2rem;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .form-basic_info label,
+    .form-basic_info input,
+    .form-basic_info select,
+    .father input,
+    .father label,
+    .mother input,
+    .mother label {
+        margin-bottom: 0.5rem;
+    }
+    /* Educational Background */
+    
+    .education-text {
+        margin-bottom: 1rem;
+    }
+    
+    .educational_background {
+        /* height: 10vh; */
+        align-content: space-between;
+        margin-bottom: 1.5rem;
+        gap: 25px;
+    }
+    
+    .educational_background input,
+    .educational_background label {
+        margin-bottom: 0.5rem;
+    }
+    
+    .educational_background input {
+        /* width: calc(2rem + 10vw); */
+        width: inherit;
+        height: 2rem;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .educational_background input[type=date] {
+        width: 8rem;
+        /* margin-top: 2rem; */
+    }
+    
+    .education_background--1,
+    .education_background--2,
+    .education_background--3 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* background-color: saddlebrown; */
+    }
+    
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1.5rem;
+        gap: 20px;
+    }
+    
+    .contact-information .phone-contact {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-information .email-contact {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-information .phone-contact input,
+    .contact-information .email-contact input {
+        height: 2rem;
+        width: 30%;
+        border-radius: 3px;
+        border: none;
+        margin-top: 0.5rem;
+    }
+    /* Parents Information */
+    
+    .parents-information {
+        /* margin-bottom: 1rem; */
+    }
+    /* Employment Information */
+    
+    .employment-information {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+    
+    .employment-information h3,
+    .employment-information h4 {
+        margin-bottom: 0.5rem;
+    }
+    
+    .employment-box {
+        display: flex;
+        justify-content: space-between;
+        height: 5rem;
+        align-items: center;
+    }
+    
+    .employment-box--1,
+    .employment-box--2 {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+    }
+    
+    .employment-box--1 input,
+    .employment-box--2 input {
+        border-radius: 3px;
+        border: none;
+        height: 2rem;
+    }
+    /* Submit Btn */
+    
+    .submit {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .submit input {
+        width: 50%;
+        height: 2rem;
+        border-radius: 3px;
+        border: none;
+    }
